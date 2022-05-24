@@ -91,8 +91,8 @@ public class Autograder {
         // Obtain final exam grade.
         System.out.print("Final Exam Grade: ");
         double final_score = in.nextDouble();
-        while (final_score < 0.0 || final_score > 60.0) {
-            System.out.println("Please enter a number between 0.0 and 60.0");
+        while (final_score < 0.0 || final_score > 70.0) {
+            System.out.println("Please enter a number between 0.0 and 70.0");
             System.out.print("Final Exam Grade: ");
             final_score = in.nextDouble();
         }
