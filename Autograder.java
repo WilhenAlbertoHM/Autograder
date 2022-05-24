@@ -82,8 +82,8 @@ public class Autograder {
         // Obtain 2nd midterm grade.
         System.out.print("Midterm 2 Grade: ");
         double m2_score = in.nextDouble();
-        while (m2_score < 0.0 || m2_score > 40.0) {
-            System.out.println("Please enter a number between 0.0 and 40.0");
+        while (m2_score < 0.0 || m2_score > 45.0) {
+            System.out.println("Please enter a number between 0.0 and 45.0");
             System.out.print("Midterm 2 Grade: ");
             m2_score = in.nextDouble();
         }
