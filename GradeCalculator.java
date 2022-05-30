@@ -1,7 +1,7 @@
 import java.util.*;
 
 // Program that calculates the final grade for Fundamentals of Physics I (Physics 113).
-public class Autograder {
+public class GradeCalculator {
 
     // Prints letter grade.
     public static String letterGrade(double grade) {
