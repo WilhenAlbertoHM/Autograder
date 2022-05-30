@@ -1,4 +1,4 @@
-# Autograder
+# Grade Calculator
 This is a program that calculates your final grade for the course Physics 113 at the University of Massachusetts Boston. The grading consists of:
 
 
